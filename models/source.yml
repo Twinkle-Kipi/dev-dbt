@@ -1,0 +1,39 @@
+version: 2
+sources:
+  - name: caribou_to_ods_source
+    database: CARIBOU_TEST
+    schema: ODS
+    tables:
+      - name: ADMIN_ADMINS
+      - name: ADMIN_AFFILIATE_AGENTS
+      - name: ADMIN_AFFILIATE_PLATFORMS
+      - name: ADMIN_AFFILIATES
+      - name: ADMIN_AFFILIATES_COMPANIES
+      - name: ADMIN_CLIENTS
+      - name: ADMIN_COMPANIES
+      - name: ADMIN_EVENT_VENUE_ADDL_ADDRESSES
+      - name: ADMIN_ORDER_CONTENTS
+      - name: ADMIN_ORDER_CONTENTS_HISTORY
+      - name: ADMIN_ORDER_DISCOUNT_TRANSACTIONAL_HISTORY
+      - name: ADMIN_ORDER_FEE_TRANSACTIONAL_HISTORY
+      - name: ADMIN_ORDER_PAYMENT_RELOCATION_HISTORY
+      - name: ADMIN_ORDER_PAYMENTS
+      - name: ADMIN_ORDER_SHIPPING_FEE_HISTORY
+      - name: ADMIN_ORDERS
+      - name: ADMIN_TEVO_CATEGORIES
+      - name: ADMIN_TEVO_PERFORMERS
+      - name: ADMIN_TEVO_VENUES
+      - name: ADMIN_TICKET_VENUE_ADDL_ADDRESSES
+      - name: ADMIN_TICKETS
+      - name: ADMIN_TICKET_DETAILS
+      - name: ADMIN_PACKAGES
+      - name: ADMIN_EVENTS
+      - name: ADMIN_HOTELS
+      - name: ADMIN_TEVO_PERFORMER_CATEGORIES
+
+  - name: info_schema
+    database: CARIBOU_TEST
+    schema: INFORMATION_SCHEMA
+    tables:
+      - name: COLUMNS
+  
